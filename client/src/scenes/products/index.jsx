@@ -13,6 +13,7 @@ import {
 } from "@mui/material";
 import { useGetProductsQuery } from "state/api";
 import Header from "components/Header";
+import LoaderUnit from "components/LoaderUnit";
 
 const Product = ({
   _id,
@@ -131,7 +132,7 @@ const Products = () => {
           )}
         </Box>
       ) : (
-        <div>Loading...</div>
+        <LoaderUnit />
       )}
     </Box>
   );

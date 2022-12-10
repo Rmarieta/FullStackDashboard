@@ -3,6 +3,7 @@ import { Box, useTheme } from "@mui/material";
 import Header from "components/Header";
 import { ResponsiveLine } from "@nivo/line";
 import { useGetSalesQuery } from "state/api";
+import LoaderUnit from "components/LoaderUnit";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -177,7 +178,7 @@ const Daily = () => {
             ]}
           />
         ) : (
-          <>Loading...</>
+          <LoaderUnit />
         )}
       </Box>
     </Box>

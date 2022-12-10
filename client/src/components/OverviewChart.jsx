@@ -2,6 +2,7 @@ import React, { useMemo } from "react";
 import { ResponsiveLine } from "@nivo/line";
 import { useTheme } from "@mui/material";
 import { useGetSalesQuery } from "state/api";
+import LoaderUnit from "./LoaderUnit";
 
 const OverviewChart = ({ isDashboard = false, view }) => {
   const theme = useTheme();
@@ -44,7 +45,7 @@ const OverviewChart = ({ isDashboard = false, view }) => {
     return [[totalSalesLine], [totalUnitsLine]];
   }, [data]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  if (!data || isLoading) return "Loading...";
+  if (!data || isLoading) return <LoaderUnit />;
 
   return (
     <ResponsiveLine

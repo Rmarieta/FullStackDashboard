@@ -69,7 +69,7 @@ const Transactions = () => {
             borderBottom: "none",
           },
           "& .MuiDataGrid-columnHeaders": {
-            backgroundColor: theme.palette.primary[400],
+            backgroundColor: theme.palette.primary.light,
             color: theme.palette.secondary[100],
             borderBottom: "none",
           },
@@ -77,7 +77,7 @@ const Transactions = () => {
             backgroundColor: theme.palette.background.alt,
           },
           "& .MuiDataGrid-footerContainer": {
-            backgroundColor: theme.palette.primary[400],
+            backgroundColor: theme.palette.primary.light,
             color: theme.palette.secondary[100],
             borderTop: "none,",
           },

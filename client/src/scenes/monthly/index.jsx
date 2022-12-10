@@ -3,6 +3,7 @@ import { Box, useTheme } from "@mui/material";
 import Header from "components/Header";
 import { ResponsiveLine } from "@nivo/line";
 import { useGetSalesQuery } from "state/api";
+import LoaderUnit from "components/LoaderUnit";
 
 const Monthly = () => {
   const { data } = useGetSalesQuery();
@@ -147,7 +148,7 @@ const Monthly = () => {
             ]}
           />
         ) : (
-          <>Loading...</>
+          <LoaderUnit />
         )}
       </Box>
     </Box>

@@ -3,6 +3,7 @@ import { Box, useTheme } from "@mui/system";
 import { useGetGeographyQuery } from "state/api";
 import Header from "components/Header";
 import { ResponsiveChoropleth } from "@nivo/geo";
+import LoaderUnit from "components/LoaderUnit";
 import { geoData } from "state/geoData";
 
 const Geography = () => {
@@ -92,7 +93,7 @@ const Geography = () => {
             ]}
           />
         ) : (
-          <>Loading...</>
+          <LoaderUnit />
         )}
       </Box>
     </Box>
