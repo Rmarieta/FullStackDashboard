@@ -7,7 +7,23 @@ Website deployed on <a href='https://rmarieta-dashboard.onrender.com/'>the follo
 <br/>
 
 <p align='center'>
-<img src='./res/dashboard_screenshot.png' width='80%'/>
+<img src='./res/desktop_screenshot.png' width='60%'/>
 </p>
 
 <br/>
+
+The design is mobile responsive and adapts to the size of the screen. The sidebar is collapsed by default on mobile mode and it switches to a vertical display for the dashboard under a certain screen width.
+
+<br/>
+
+<p align='center'>
+<img src='./res/fused_screenshot.png' width='80%'/>
+</p>
+
+<br/>
+
+### Demo of the app
+
+<video src="https://user-images.githubusercontent.com/33026272/205732170-0a413b08-8bed-4b12-b1f8-3b74e7c7c022.mp4">
+</video>
+
