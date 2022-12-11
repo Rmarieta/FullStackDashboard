@@ -56,7 +56,7 @@ const Transactions = () => {
   ];
 
   return (
-    <Box m="1.5rem 2.5rem">
+    <Box m="1.5rem 2.5rem" pb="2%">
       <Header title="TRANSACTIONS" subtitle="Entire List of Transactions" />
       <Box
         mt="40px"

@@ -44,7 +44,7 @@ const Performance = () => {
   ];
 
   return (
-    <Box m="1.5rem 2.5rem">
+    <Box m="1.5rem 2.5rem" pb="2%">
       <Header
         title="PERFORMANCE"
         subtitle="Track Your Affiliate Sales Performance"

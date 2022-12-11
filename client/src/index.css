@@ -9,16 +9,27 @@ body,
   font-family: "Inter", sans-serif;
 }
 
+:root {
+  --scrollbar-color: #21295c;
+  --scrollbar-background: #7a7f9d;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
   /*background: #7a7f9d;*/
-  background: none;
+  background: var(--scrollbar-background);
 }
 
 ::-webkit-scrollbar-thumb {
   /* background: #21295c; */
-  background: #ffe3a3;
+  /* background: #ffe3a3; */
+  background: var(--scrollbar-color);
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--scrollbar-background);
 }

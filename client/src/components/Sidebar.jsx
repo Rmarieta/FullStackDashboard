@@ -128,20 +128,34 @@ const Sidebar = ({
           }}
         >
           <Box width="100%">
-            <Box m="1.5rem 2rem 2rem 3rem">
-              <FlexBetween color={theme.palette.secondary.main}>
-                <Box display="flex" alignItems="center" gap="0.5rem">
+            {!isNonMobile ? (
+              <Box m="1.7rem 2rem 1.7rem 3rem">
+                <FlexBetween color={theme.palette.secondary.main}>
+                  <Box display="flex" alignItems="center" gap="0.5rem">
+                    <Typography variant="h4" fontWeight="bold">
+                      WRAP-UP
+                    </Typography>
+                  </Box>
+                  <IconButton onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
+                    <ChevronLeft />
+                  </IconButton>
+                </FlexBetween>
+              </Box>
+            ) : (
+              <Box alignItems="center" width="100%">
+                <Box
+                  m="1.7rem 1.7rem 1.7rem 1.7rem"
+                  display="flex"
+                  alignItems="center"
+                  justifyContent="center"
+                >
                   <Typography variant="h4" fontWeight="bold">
                     WRAP-UP
                   </Typography>
                 </Box>
-                {!isNonMobile && (
-                  <IconButton onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
-                    <ChevronLeft />
-                  </IconButton>
-                )}
-              </FlexBetween>
-            </Box>
+              </Box>
+            )}
+
             <List>
               {navItems.map(({ text, icon }) => {
                 if (!icon) {
@@ -193,7 +207,8 @@ const Sidebar = ({
             </List>
           </Box>
 
-          <Box position="absolute" bottom="2rem">
+          {/* BOTTOM USER UNIT */}
+          {/* <Box position="absolute" bottom="2rem">
             <Divider />
             <FlexBetween textTransform="none" gap="1rem" m="1.5rem 2rem 0 3rem">
               <Box
@@ -224,7 +239,7 @@ const Sidebar = ({
                 sx={{ color: theme.palette.secondary[300], fontSize: "25px" }}
               />
             </FlexBetween>
-          </Box>
+          </Box> */}
         </Drawer>
       )}
     </Box>

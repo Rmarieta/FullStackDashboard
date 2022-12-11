@@ -58,7 +58,7 @@ const Dashboard = () => {
   ];
 
   return (
-    <Box m="1.5rem 2.5rem">
+    <Box m="1.5rem 2.5rem" pb="2%">
       <FlexBetween>
         <Header title="DASHBOARD" subtitle="Welcome to Your Dashboard" />
 
@@ -228,6 +228,7 @@ const Dashboard = () => {
           backgroundColor={theme.palette.background.alt}
           p="1.5rem"
           borderRadius="0.55rem"
+          overflow="hidden"
         >
           <Typography variant="h6" sx={{ color: theme.palette.secondary[100] }}>
             Sales By Category

@@ -11,7 +11,7 @@ const Geography = () => {
   const { data } = useGetGeographyQuery();
 
   return (
-    <Box m="1.5rem 2.5rem">
+    <Box m="1.5rem 2.5rem" pb="2%">
       <Header title="GEOGRAPHY" subtitle="Location of Your Users" />
       <Box
         mt="40px"
