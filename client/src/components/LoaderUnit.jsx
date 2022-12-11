@@ -3,7 +3,7 @@ const { Box } = require("@mui/material");
 
 const LoaderUnit = () => {
   return (
-    <Box display="flex" justifyContent="center" width="max" pt="25vh">
+    <Box display="flex" justifyContent="center" width="max" pt="25%">
       <img src={Loader} alt="Loading..." width={35} height={35} />
     </Box>
   );
