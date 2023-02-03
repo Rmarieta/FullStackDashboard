@@ -7,7 +7,7 @@ Website deployed on <a href='https://rmarieta-dashboard.onrender.com/'>the follo
 <br/>
 
 <p align='center'>
-<img src='./res/desktop_screenshot.png' width='60%'/>
+<img src='./res/screen.png' width='60%'/>
 </p>
 
 <br/>
