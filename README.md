@@ -24,7 +24,11 @@ The design is mobile responsive and adapts to the size of the screen. The sideba
 
 ### Demo of the app
 
-<video src="https://user-images.githubusercontent.com/33026272/206919289-b6f66cb1-d401-4f25-babd-1658445b29d6.mp4">
+<video src="https://user-images.githubusercontent.com/33026272/216689690-a45b8a79-b0c9-46a2-aee7-14957be0a3f1.mp4">
 </video>
+
+
+
+
 
 
