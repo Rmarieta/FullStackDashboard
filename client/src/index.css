@@ -10,8 +10,8 @@ body,
 }
 
 :root {
-  --scrollbar-color: #21295c;
-  --scrollbar-background: #7a7f9d;
+  --scrollbar-color: #abc8fa;
+  --scrollbar-background: #272727;
 }
 
 ::-webkit-scrollbar {

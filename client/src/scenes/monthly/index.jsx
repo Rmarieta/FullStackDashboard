@@ -79,7 +79,7 @@ const Monthly = () => {
                 },
               },
             }}
-            colors={{ datum: "color" }}
+            colors={["#dcc179", "#ca7d67"]}
             margin={{ top: 50, right: 50, bottom: 70, left: 60 }}
             xScale={{ type: "point" }}
             yScale={{

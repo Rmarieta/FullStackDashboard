@@ -15,14 +15,14 @@ export const globalSlice = createSlice({
 
         // change CSS for scrollbar
         const root = document.querySelector(":root");
-        root.style.setProperty("--scrollbar-color", "#21295c");
-        root.style.setProperty("--scrollbar-background", "#7a7f9d");
+        root.style.setProperty("--scrollbar-color", "#abc8fa");
+        root.style.setProperty("--scrollbar-background", "#272727");
       } else {
         state.mode = "light";
 
         const root = document.querySelector(":root");
-        root.style.setProperty("--scrollbar-color", "#c6a85f");
-        root.style.setProperty("--scrollbar-background", "#e0e0e0");
+        root.style.setProperty("--scrollbar-color", "#96a1c9");
+        root.style.setProperty("--scrollbar-background", "#f0f0f0");
       }
     },
   },

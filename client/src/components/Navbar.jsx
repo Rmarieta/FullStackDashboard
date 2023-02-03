@@ -43,7 +43,7 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
     >
       <Toolbar sx={{ justifyContent: "space-between" }}>
         {/* LEFT SIDE */}
-        <FlexBetween>
+        <FlexBetween gap="1rem" ml="0.5rem">
           <IconButton onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
             <MenuIcon />
           </IconButton>
@@ -117,6 +117,7 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
               open={isOpen}
               onClose={handleClose}
               anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+              disableScrollLock={true}
             >
               <MenuItem onClick={handleClose}>Log Out</MenuItem>
             </Menu>
