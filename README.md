@@ -1,4 +1,4 @@
-# Financial Dashboard App Using MongoDB, Express and ReactJS
+# Financial Dashboard App Using React, Express and MongoDB
 
 Full-stack implementation of a dashboard providing :
 - a light and a dark mode
