@@ -22,7 +22,7 @@ The design is mobile responsive and adapts to the size of the screen. The sideba
 <br/>
 
 <p align='center'>
-<img src='./res/fused_screenshot.png' width='80%'/>
+<img src='./res/fused_screenshot.png' width='90%'/>
 </p>
 
 <br/>
