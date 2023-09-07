@@ -7,7 +7,7 @@ Full-stack implementation of a dashboard providing :
 
 The app backend is implemented using Express and fetches data in real time from a MongoDB database.
 
-Website deployed on <a href='https://rmarieta-dashboard.onrender.com/'>the following link</a>, using the free plan from <a href='https://render.com/'>render.com</a> (frontend or backend might be down since it was using the free plan).
+Website deployed on <a href='https://rmarieta-dashboard.onrender.com/'>the following link</a>, using the free plan from <a href='https://render.com/'>render.com</a> (expect a long loading time since it's on the free plan).
 
 <br/>
 
